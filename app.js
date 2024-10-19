@@ -4,7 +4,7 @@ const express = require('express'),
     sanitizer = require('sanitizer'),
     path = require('path'),
     app = express(),
-    port = 8082;
+    port = 8081;
 
 // Body parser for form submissions
 app.use(bodyParser.urlencoded({ extended: false }));
