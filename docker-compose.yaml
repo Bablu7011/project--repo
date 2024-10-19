@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  web:
+    image: "babludevops701/todo-list-image:latest"
+    ports:
+      - "8081:8081"
